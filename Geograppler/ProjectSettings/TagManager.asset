@@ -8,12 +8,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MainLayer
   - Water
   - UI
+  - Player
+  - Grappler
   - Ground
-  - 
-  - 
   - 
   - 
   - 
