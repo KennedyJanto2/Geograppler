@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D rb;
 
-    private bool facingRight = true;
+    //private bool facingRight = true;
 
     private bool isGrounded;
     public Transform groundCheck;
@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.up*jumpForce;
             jumpRequest = false;
         }
-
+        /*
         if(facingRight == false && moveInput > 0){
             Flip();
         }
@@ -108,5 +108,7 @@ public class PlayerController : MonoBehaviour
         Scaler.x *= -1;
         transform.localScale = Scaler;
 
+    }
+    */
     }
 }

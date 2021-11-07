@@ -8,12 +8,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MainLayer
   - Water
   - UI
+  - Player
+  - Grappler
   - Ground
-  - 
-  - 
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: tilemap
+    uniqueID: 163669429
+    locked: 0
+  - name: New Layer
+    uniqueID: 2501886845
     locked: 0
