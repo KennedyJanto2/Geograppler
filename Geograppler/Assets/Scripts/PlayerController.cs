@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D rb;
 
-    //private bool facingRight = true;
-
     private bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
@@ -26,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
     private float dashTime;
     private int direction;
+
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +46,6 @@ public class PlayerController : MonoBehaviour
         if(Input.GetButtonDown("Jump") && extraJumps > 0){
             jumpRequest = true;
             extraJumps--;
-
         }
         else if(Input.GetButtonDown("Jump") && isGrounded == true && extraJumps == 0){
             rb.velocity = Vector2.up*jumpForce;
@@ -83,6 +81,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
     }
 
     void FixedUpdate()
@@ -93,22 +92,5 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.up*jumpForce;
             jumpRequest = false;
         }
-        /*
-        if(facingRight == false && moveInput > 0){
-            Flip();
-        }
-        else if(facingRight == true && moveInput <0){
-            Flip();
-        }
-    }
-    void Flip()
-    {
-        facingRight = !facingRight;
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
-
-    }
-    */
     }
 }

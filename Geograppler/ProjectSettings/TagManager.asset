@@ -38,12 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 4095804073
+    locked: 0
+  - name: leg back
+    uniqueID: 4158893127
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: tilemap
     uniqueID: 163669429
     locked: 0
-  - name: New Layer
+  - name: top
     uniqueID: 2501886845
     locked: 0
