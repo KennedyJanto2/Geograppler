@@ -8,3 +8,5 @@ Team Lead: Kennedy Janto, Mark Haddad
 Platform Design: Corey N
 
 Artist: Rose
+
+Level Design: Caustin
