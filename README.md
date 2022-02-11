@@ -3,7 +3,8 @@
 Team project for CPP game dev club/ Fall 2021
 
 Members and roles:
-Team Lead: Kennedy Janto, Mark Haddad
+
+Team Leads: Kennedy Janto, Mark Haddad
 
 Platform Design: Corey N
 
