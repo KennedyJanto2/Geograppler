@@ -6,9 +6,9 @@ Members and roles:
 
 Team Leads: Kennedy Janto, Mark Haddad
 
-Platform Design: Corey N
+Platform Design: Corey Nambu
 
-Artist: Rose
+Artist: Rose Roldan
 
 Level Design: Aaron
 
